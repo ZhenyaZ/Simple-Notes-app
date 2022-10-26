@@ -1,0 +1,140 @@
+#wrapper {
+  margin: 75px 113px 75px 113px;
+}
+/* HEADER */
+.ToDo-header {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  border-bottom: 2px solid rgba(70, 39, 48, 0.8);
+  padding: 11px 0px 11px 0px;
+}
+.addBtn {
+    display: flex;
+    margin-left: 600px;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #f25551;
+    padding: 15px 15px;
+  }
+  .addBtn:hover {
+    background: #462730;
+    border-radius: 40px;
+  }
+.ToDo-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #feede1cc;
+  text-transform: uppercase;
+}
+/* BTN */
+.ToDo-btn input {
+  display: none;
+}
+.ToDo-btn form input {
+  margin: 5px;
+}
+.ToDo-btn {
+}
+#ToDo-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #feede1;
+  border: 0px;
+  background: #241722;
+  box-shadow: 0px 4px 4px rgba(17, 17, 28, 0.6);
+}
+#ToDo-name:hover {
+  background: #352432;
+}
+#ToDo-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #feede1;
+  border: 0px;
+  background: #241722;
+  box-shadow: 0px 4px 4px rgba(17, 17, 28, 0.6);
+}
+#ToDo-text:hover {
+  background: #352432;
+}
+#ToDo-subtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #feede1;
+  border: 0px;
+  background: #241722;
+  box-shadow: 0px 4px 4px rgba(17, 17, 28, 0.6);
+}
+#ToDo-subtext:hover {
+  background: #352432;
+}
+/* CARD */
+.ToDo-card {
+    animation-name: card;
+    padding: 11px 11px 0px 11px;
+    animation-duration: 2s;
+    width: 100%;
+    height: 150px;
+    background: #352432;
+    border-radius: 4px;
+  margin-top: 20px;
+  border: 0px;
+  box-shadow: 0px 4px 4px rgba(17, 17, 28, 0.6);
+}
+@keyframes card {
+    0%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateX(0%);
+        transition: ease-out;
+    }
+}
+.ToDo-card-text {
+  display: flex;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FEEDE1;
+}
+.ToDo-card-text p {
+  padding-left: 25px;
+}
+.card-reset{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 56px;
+    padding-left: 50px;
+    width: 205px;
+    height: 58px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #f25551;
+}
+.card-reset:hover{
+    background: #462730;
+    border-radius: 40px;
+}
